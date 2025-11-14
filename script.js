@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. (9s) (เพิ่มส่วนนี้) แสดงข้อความ "Happybirthday SD"
     // (หลังจากเลข 1 จางหายไป 0.5s)
     setTimeout(() => {
-        countdownEl.innerText = 'Happy Birthday'; // เปลี่ยนข้อความ
+        countdownEl.innerText = 'Happy Birthday เพชร'; // เปลี่ยนข้อความ
         countdownEl.style.opacity = '1'; // แสดงข้อความใหม่
     }, 9000);
 });
